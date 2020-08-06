@@ -1,0 +1,37 @@
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,1);
+    border: solid 1px black;
+    padding: 4px;
+   	text-align: center;	
+   	background-color: white;
+}
+
+.navbar-collapse{
+	margin: 9px -15px -5px;
+}
+
+#header-title{
+	font-size: 1.3em;
+	padding: 10px 0px; 
+}
+
+.description{
+	background-color: green;
+	text-align: center;
+}
+
+div.description>h2{
+	font-size: 1.1em;
+	padding: 5px 0;
+} 
+
+div.description>p{
+	text-align: left;
+}
+
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-collapse {
+    display: none !important;
+}
